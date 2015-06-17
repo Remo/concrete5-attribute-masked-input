@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+    <table name="atMaskedInput">
+        <field name="akID" type="I">
+            <key/>
+            <default value="0"/>
+            <unsigned/>
+        </field>
+        <field name="mask" type="C" size="200"></field>
+    </table>
+</schema>
